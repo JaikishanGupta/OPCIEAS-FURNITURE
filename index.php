@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <?php include("./assets/includes/header.php"); ?>
+
+    <section class="hero-section">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide" style="background-image:url('./assets/images/banner/banner2.avif');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="eyebrow">Manufacturer &amp; Exporter of</span>
+                        <h1>Premium Furniture<br><span class="accent">Solutions</span></h1>
+                        <div class="divider"></div>
+                        <p class="desc">Delivering world-class furniture for Offices, Institutions, Hospitals, Educational Spaces, Hotels &amp; more. Built for comfort. Built to last.</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary">Explore Products &rarr;</a>
+                            <a href="#" class="btn btn-outline"> Catalogue &#8681;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide" style="background-image:url('./assets/images/banner/banner3.avif');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="eyebrow">Trusted by 500+ Businesses</span>
+                        <h1>Crafted for Comfort<br><span class="accent">Built for Work</span></h1>
+                        <div class="divider"></div>
+                        <p class="desc">Ergonomic, durable and elegant furniture designed to elevate every workspace, from corporate offices to co-working hubs.</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary">View Collection &rarr;</a>
+                            <a href="#" class="btn btn-outline">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide" style="background-image:url('./assets/images/banner/banner1.avif');">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="eyebrow">Pan-India &amp; Global Exports</span>
+                        <h1>Furnishing Spaces<br><span class="accent">Across the World</span></h1>
+                        <div class="divider"></div>
+                        <p class="desc">From hospitals to hotels, our export-quality furniture meets international standards of design, safety and durability.</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary">Explore Products &rarr;</a>
+                            <a href="#" class="btn btn-outline">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <section class="section-one">
+        <div class="container">
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="content">
+                    <h3>25+</h3>
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-regular fa-circle-check"></i>
+                </div>
+                <div class="content">
+                    <h3>ISO 9001:2015</h3>
+                    <p>Certified Company</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+                <div class="content">
+                    <h3>Custom Furniture</h3>
+                    <p>As Per Your Need</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="content">
+                    <h3>Pan India</h3>
+                    <p>Delivery & Installation</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="content">
+                    <h3>Global Presence</h3>
+                    <p>Exports to 20+ Countries</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="content">
+                    <h3>Quality Assured</h3>
+                    <p>At Every Step</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about-section-home">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <!-- Left Image -->
+                <div class="col-lg-6 col-12" data-aos="fade-up">
+                    <div class="about-image">
+                        <img src="./assets/images/Product/aboutimg.jpg" alt="About Furniture">
+
+                        <div class="experience-badge">
+                            <h3>25+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="about-content">
+                        <span class="sub-title">About Our Company</span>
+
+                        <h2>
+                            Premium Furniture Solutions For
+                            <span>Modern Spaces</span>
+                        </h2>
+
+                        <p>
+                            We specialize in designing and manufacturing high-quality
+                            furniture for offices, homes, hospitals, hotels, and
+                            industrial spaces.
+                        </p>
+
+                        <div class="about-features">
+                            <div class="feature-item">
+                                ✓ High Quality Materials
+                            </div>
+
+                            <div class="feature-item">
+                                ✓ Modern & Elegant Design
+                            </div>
+
+                            <div class="feature-item">
+                                ✓ 5000+ Happy Clients
+                            </div>
+
+                            <div class="feature-item">
+                                ✓ Fast Delivery
+                            </div>
+                        </div>
+
+                        <p>
+                            Our products combine durability, comfort and aesthetics
+                            to transform every environment into a productive space.
+                        </p>
+
+                        <a href="about.php" class="about-btn">
+                            Explore More
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-two">
+        <div class="container">
+
+            <div class="section-heading" data-aos="fade-up">
+                <span class="eyebrow">Explore Our Range</span>
+                <h2>Product Categories</h2>
+                <p>
+                    Browse our complete range of premium furniture solutions,
+                    crafted for every space and industry.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Office Furniture</div>
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Workstations</div>
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-delay="200">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Institutional Furniture</div>
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Hospital Furniture</div>
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="400">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Library Furniture</div>
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-delay="500">
+                    <a href="#" class="category-card">
+                        <div class="category-thumb">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                            <span class="thumb-arrow">→</span>
+                        </div>
+                        <div class="category-name">Hostel Furniture</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-three">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-xl col-lg col-md-4 col-6">
+                    <div class="stat-box">
+                        <div class="icon-box">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h2>25+</h2>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl col-lg col-md-4 col-6">
+                    <div class="stat-box">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h2>5000+</h2>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl col-lg col-md-4 col-6">
+                    <div class="stat-box">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h2>3000+</h2>
+                            <p>Products</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl col-lg col-md-6 col-6">
+                    <div class="stat-box">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h2>20+</h2>
+                            <p>Countries Exported</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-xl col-lg col-md-6 col-12">
+                    <div class="stat-box">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h2>100%</h2>
+                            <p>Quality Assured</p>
+                        </div>
+                    </div>
+
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-four">
+        <div class="container">
+
+
+            <div class="section-heading" data-aos="fade-up">
+                <h2>Featured Products</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Executive Chair</h3>
+                            <p>Ergonomic | Comfortable | Durable</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Office Workstation</h3>
+                            <p>Modular | Modern | Space Saving</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Steel Storage Cabinet</h3>
+                            <p>Strong | Secure | Long Lasting</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-down" data-aos-delay="300">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Conference Table</h3>
+                            <p>Premium Finish | Elegant Design</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Office Sofa</h3>
+                            <p>Premium | Stylish | Soft</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-out" data-aos-delay="500">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Bookshelf</h3>
+                            <p>Wooden | Spacious | Modern</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="flip-up" data-aos-delay="600">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Reception Desk</h3>
+                            <p>Luxury | Professional | Durable</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="fade-left" data-aos-delay="700">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="./assets/images/Product/pro.jpg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Meeting Table</h3>
+                            <p>Elegant | Strong | Spacious</p>
+                            <div class="product-btn">
+                                <a href="#">View Details</a>
+                                <span>→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="home-page-enquery-form-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-6 col-12" data-aos="fade-up">
+                    <div class="enquiry-content">
+                        <span class="sub-title">Get In Touch</span>
+                        <h2>Looking For Premium Furniture Solutions?</h2>
+
+                        <p>
+                            We provide high-quality furniture for offices, homes,
+                            hospitals, hotels and industrial spaces. Share your
+                            requirements with us and our team will contact you.
+                        </p>
+
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                Premium Quality Products
+                            </div>
+
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                Custom Furniture Solutions
+                            </div>
+
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                Fast Delivery & Installation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form -->
+                <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="enquiry-form-box">
+                        <h3>Send Enquiry</h3>
+
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="tel" placeholder="Phone Number">
+                                </div>
+
+                                <div class="col-12">
+                                    <input type="email" placeholder="Email Address">
+                                </div>
+
+                                <div class="col-12">
+                                    <select>
+                                        <option>Select Product</option>
+                                        <option>Office Furniture</option>
+                                        <option>Conference Table</option>
+                                        <option>Workstation</option>
+                                        <option>Chair</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea rows="4" placeholder="Your Message"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit">Submit Enquiry →</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="section-heading" data-aos="fade-up">
+                <span class="eyebrow">Why Choose Us</span>
+                <h2>Why Customers Trust Our Furniture</h2>
+                <p>
+                    We deliver premium quality furniture solutions with modern design,
+                    durability, and excellent customer support.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+                        <h3>Premium Quality</h3>
+                        <p>High-grade materials with durable finishing and luxury feel.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                        </div>
+                        <h3>Custom Design</h3>
+                        <p>Furniture designed according to your space and requirements.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick production and on-time delivery for all projects.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <h3>Expert Team</h3>
+                        <p>Skilled professionals with years of furniture industry experience.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Warranty</h3>
+                        <p>Quality assurance and product warranty for peace of mind.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="choose-card">
+                        <div class="choose-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Dedicated support team always available for assistance.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <?php include "./assets/includes/footer.php"; ?>
+
+</body>
+
+<!-- Swiper JS CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    const heroSwiper = new Swiper('.hero-section .swiper', {
+        loop: true,
+        speed: 800,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.hero-section .swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.hero-section .swiper-button-next',
+            prevEl: '.hero-section .swiper-button-prev',
+        },
+        effect: 'slide',
+    });
+</script>
+
+
+
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 120,
+        once: true,
+        easing: "ease-in-out"
+    });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100,
+        easing: "ease-in-out"
+    });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</html>
